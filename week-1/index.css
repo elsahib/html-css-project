@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(week-1/assets/fonts/OpenSans-BoldItalic.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background: steelblue;
+  width: 100vw;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+footer {
+  position: relative;
+}
+
+article {
+  color: #5d5d5d;
+}
+
+article:first-child {
+  color: #0d0d0d;
+}
+
+.header-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.heading-1 {
+  display: inline;
+  color: white;
+}
+
+.main {
+  padding: 3em 0;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 2em;
+}
+
+.card {
+  margin-bottom: 6rem;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.footer-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.footer-content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 2em;
+}

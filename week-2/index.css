@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(week-1/assets/fonts/OpenSans-BoldItalic.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background: steelblue;
+  width: 100vw;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+footer {
+  position: relative;
+  padding: 1rem 0;
+  background-color: #83ccfa;
+}
+
+article {
+  max-width: 16rem;
+  color: #5d5d5d;
+}
+
+article:first-child {
+  color: #0d0d0d;
+}
+
+aside {
+  position: relative;
+}
+
+.header-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.heading-1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.main {
+  position: relative;
+  padding: 3em 0;
+
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.matrix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px #d6d6d6 solid;
+  border-radius: 10px;
+  max-width: 18rem;
+
+  margin: 0 2rem 2rem 0;
+}
+
+.card-heading {
+  text-align: center;
+}
+
+.card-img {
+  max-width: 16rem;
+  max-height: 16rem;
+}
+
+.card-description {
+  text-align: center;
+}
+
+.card-link {
+  text-align: center;
+}
+
+.sidebar {
+  position: absolute;
+  background-color: aquamarine;
+  bottom: 0;
+  min-width: 100%;
+}
+
+.sidebar-container {
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.sidebar-item {
+  display: inline;
+}
+
+.footer-container {
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.footer-content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 2em;
+}
+
+.u-hide--max-lg {
+  display: none;
+}
+
+/* 1200px - sidebar collapse */
+
+@media (min-width: 1200px) {
+  .heading-1 {
+    text-align: left;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2em;
+  }
+
+  .matrix {
+    justify-content: unset;
+    margin-left: 0;
+  }
+
+  .sidebar {
+    height: 100%;
+    bottom: unset;
+    left: unset;
+    right: 0;
+    top: 0;
+    min-width: 12rem;
+  }
+
+  .sidebar-container {
+    padding: 3rem 1rem;
+  }
+
+  .sidebar-item {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .u-hide--lg {
+    display: none;
+  }
+}
